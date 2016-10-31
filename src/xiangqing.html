@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta  name="viewport"  content="width=device-width initial-scale=1 "  />
+		<title>商品详情页</title>
+		
+		<link rel="stylesheet" type="text/css" href="../dist/swiper.min.css"/>
+		<script src="../dist/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../dist/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+		
+		
+		
+		<style type="text/css">
+		
+				a{
+					text-decoration: none;
+				}		
+		
+			.nav{
+				  display: flex;
+			
+				  background: blueviolet;
+				
+				  justify-content: center;
+			
+			}
+			.nav a{
+				margin-left: 10px;
+				color: white;
+				display: block;
+				height: 50px;
+				width: 60px;
+				background:  blueviolet;
+			
+				
+			}
+			.active{
+			    
+			     color: black;
+			     
+			}
+			
+			
+			
+		</style>
+		
+		
+		<script type="text/javascript">
+	
+document.addEventListener("DOMContentLoaded",function(){
+	
+	  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+    });
+	
+	
+	
+	
+	
+	
+	
+})
+			
+			
+			
+			
+		</script>
+		
+	  
+	</head>
+	<body>
+			
+			<!--头部导航-->
+				<nav class="nav">
+					<a href="#"  class="xiangqing  active">详情</a>
+					
+					
+					<a href="#"  class="pinglun">评论</a>
+					
+					
+				</nav>
+		
+			
+		<!--图片轮播-->	
+				<section  class="swiper-container">
+					
+				
+        <div class="swiper-wrapper">
+           
+					<div class="swiper-slide"><img src="../img/54.jpg"/></div>
+					<div class="swiper-slide"><img src="../img/55.jpg" /></div>
+					<div class="swiper-slide"><img src="../img/56.jpg" /></div>
+					
+          
+        </div>
+        <!--图片按钮 -->
+        <div class="swiper-pagination"></div>
+  										
+			
+				</section>
+				
+				
+				
+				
+				
+				
+				
+	
+		
+		
+	
+		
+		
+		
+	</body>
+</html>
